@@ -1,0 +1,613 @@
+<!DOCTYPE html><html lang="es" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Caveat:wght@600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.font-handwriting{font-family:'Caveat',cursive;}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}html,body{overflow-x:clip;max-width:100%;}section[id]{scroll-margin-top:9rem;}img{max-width:100%;}.no-scrollbar{scrollbar-width:none;}@media (hover:none){.group:hover .group-hover\:scale-105,.hover\:scale-105:hover{transform:none;}}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error": "#ba1a1a", "surface-bright": "#f8f9ff", "tertiary": "#463400", "primary-fixed": "#d5e3ff", "outline-variant": "#c2c6d2", "secondary-fixed-dim": "#ffb1c2", "surface-variant": "#dbe3f2", "on-secondary-fixed": "#3f0018", "tertiary-fixed": "#ffdf99", "inverse-surface": "#29313c", "surface-container-highest": "#dbe3f2", "surface-container-high": "#e1e9f8", "on-tertiary": "#ffffff", "surface-container-low": "#eff4ff", "inverse-primary": "#a8c8ff", "tertiary-fixed-dim": "#f6bf22", "inverse-on-surface": "#eaf1ff", "primary-fixed-dim": "#a8c8ff", "surface-container": "#e6eefe", "on-tertiary-fixed-variant": "#5a4300", "on-primary-fixed-variant": "#004689", "on-error-container": "#93000a", "on-surface": "#141c27", "surface-tint": "#285fa4", "on-secondary-container": "#fffbff", "secondary": "#b70053", "surface-dim": "#d2dae9", "error-container": "#ffdad6", "on-secondary": "#ffffff", "on-primary": "#ffffff", "primary": "#00366c", "outline": "#737782", "on-tertiary-fixed": "#251a00", "on-primary-container": "#9ac0ff", "on-background": "#141c27", "on-secondary-fixed-variant": "#8f003f", "background": "#f8f9ff", "on-surface-variant": "#424751", "secondary-fixed": "#ffd9df", "on-tertiary-container": "#edb716", "primary-container": "#0a4d92", "surface-container-lowest": "#ffffff", "on-error": "#ffffff", "on-primary-fixed": "#001b3c", "tertiary-container": "#624a00", "surface": "#f8f9ff", "secondary-container": "#e01a6a" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "2rem", "space-lg": "1.75rem", "gutter-mobile": "1rem", "margin-mobile": "1.25rem", "space-xs": "0.25rem", "space-md": "1rem", "gutter": "1.5rem", "space-sm": "0.5rem", "space-xl": "3rem" }, "fontFamily": { "headline-lg": [ "Playfair Display" ], "label-lg": [ "Plus Jakarta Sans" ], "headline-md": [ "Playfair Display" ], "body-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "display-lg-mobile": [ "Playfair Display" ], "title-md": [ "Plus Jakarta Sans" ], "headline-sm": [ "Playfair Display" ], "headline-lg-mobile": [ "Playfair Display" ], "display-lg": [ "Playfair Display" ], "body-sm": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ] }, "fontSize": { "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "body-md": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ], "display-lg-mobile": [ "38px", { "lineHeight": "46px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "title-md": [ "18px", { "lineHeight": "26px", "fontWeight": "700" } ], "headline-sm": [ "22px", { "lineHeight": "30px", "fontWeight": "600" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "600" } ], "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-sm": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50"><div class="bg-secondary text-on-secondary px-margin-mobile sm:px-gutter py-space-xs text-center flex items-center justify-center gap-space-sm shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="font-label-md text-[10px] leading-4 sm:text-label-md tracking-wider sm:tracking-widest uppercase"><span class="sm:hidden">✨ ¡Feliz Cumpleaños, Ángela! ✨</span><span class="hidden sm:inline">✨ ¡FELIZ CUMPLEAÑOS, ÁNGELA VARGAS! NUESTRA DANCING QUEEN ✨</span></span></div><div class="bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(10,77,146,0.08)]"><div class="h-16 sm:h-20 w-full px-margin-mobile sm:px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm sm:gap-space-md min-w-0"><img alt="" onerror="this.style.display='none'" class="h-8 sm:h-10 w-auto max-w-[2.5rem] sm:max-w-[3rem] object-contain shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1VMAe9r7leQMzZu4FzHMjn_Ke8rBJ7Ja69dS3OmHEVaL6OmoTLbSkcaSbbaqiMbgHIij6x7_jSK508bvf3uXfth0Zt1SnM08DVRf0k_MAMquYZ82DbwPuy8C0Karb8C4uSnQ32kap_T1K2SzNjKAVrEtRX1VDYEeSvBYZGMT2VAPIs5493t0JvUdmaMG824KsN_qE8RsDhM0cs-2A9gOz4cFOssh5TWIOBaYPEBqsWgY3oDRD_8VCPUkFQ"><div class="flex flex-col min-w-0"><span class="font-headline-sm text-lg leading-6 sm:text-headline-sm text-primary tracking-tight truncate">Kalokairi Portal</span><span class="font-label-md text-[10px] leading-4 sm:text-label-md text-secondary truncate">Edición Especial Para Ángela Vargas</span></div></div><nav class="hidden lg:flex items-center gap-space-lg"><a class="font-label-lg text-label-lg text-secondary font-bold underline underline-offset-8 decoration-2 decoration-secondary" href="#carta-personal">Carta a Ángela</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-secondary transition-colors" href="#album-memorias">Álbum de Recuerdos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-secondary transition-colors" href="#tocadiscos">Playlist Dynamos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-secondary transition-colors" href="#kit-dynamos">Kit Oficial</a></nav><div class="flex items-center gap-space-sm sm:gap-space-md shrink-0"><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-sm rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg shadow-[0_4px_20px_-2px_rgba(10,77,146,0.08),0_2px_6px_-1px_rgba(244,162,97,0.12)] hover:bg-secondary hover:text-on-secondary transition-all active:scale-95" href="#album-memorias">💖 Ver Nuestro Álbum</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold text-xs">AV</div></div></div><nav class="lg:hidden flex items-center gap-space-sm overflow-x-auto no-scrollbar px-margin-mobile sm:px-margin pb-space-sm"><a class="shrink-0 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md" href="#carta-personal">Carta</a><a class="shrink-0 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md" href="#album-memorias">Álbum</a><a class="shrink-0 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md" href="#tocadiscos">Playlist</a><a class="shrink-0 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md" href="#kit-dynamos">Kit Oficial</a></nav></div></header><main class="w-full pt-28 flex-1 bg-surface"><div class="flex flex-col w-full relative overflow-hidden selection:bg-secondary-fixed selection:text-secondary">
+<!-- Ambient Disco Starburst Background Elements -->
+<div class="absolute top-10 left-10 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-80 right-0 w-[500px] h-[500px] rounded-full bg-tertiary-fixed/30 blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-[1600px] left-1/4 w-80 h-80 rounded-full bg-primary-fixed/40 blur-3xl pointer-events-none -z-10"></div>
+<!-- HERO SECTION: Sun-drenched Kalokairi Panorama -->
+<section class="relative w-full -mt-28 min-h-[92vh] flex items-center justify-center overflow-hidden">
+<!-- Background Image with Scrim -->
+<div class="absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-1000 scale-105" data-alt="Sun-drenched Greek island stone balcony on Skopelos with vibrant magenta bougainvillea arch in full bloom overlooking the sparkling turquoise Aegean sea" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida/AEtjO1XyHprblcaOKWB4pjDTAq_4JyE5tMudrSkX8nygJ7kMjaDHkRC-DFu8eNB49WQa_G5OW6PbIriRbboDUK4fg7KE6Cv8cchVSBOMAZzv5OgcxMW7RVzdhXZdGG_b-bA3xEXEcGi2D2aGe6BWTWESpazRN2AbF5-McnVy_l3qu7mMAj-Zc5-re-wFtoApDxTq59tSdKtVgrFYX8LnuYhzGeeJ1N8sDttok59aeMh6Sb6sfAAPV8pahLykZJc&quot;);">
+<div class="absolute inset-0 bg-gradient-to-b from-primary/50 via-primary/25 to-surface"></div>
+<div class="absolute inset-0 bg-radial from-transparent via-black/10 to-primary/40"></div>
+</div>
+<!-- Floating Disco Sparkles SVG Overlay -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none opacity-40 mix-blend-screen" xmlns="http://www.w3.org/2000/svg">
+<circle class="animate-pulse" cx="15%" cy="30%" fill="#ffdf99" r="3"></circle>
+<polygon class="animate-ping" fill="#ffffff" points="120,80 123,90 133,93 123,96 120,106 117,96 107,93 117,90" style="animation-duration: 4s;"></polygon>
+<polygon class="animate-pulse" fill="#ffd9df" points="850,140 853,150 863,153 853,156 850,166 847,156 837,153 847,150" style="animation-duration: 3s;"></polygon>
+<polygon fill="#ffdf99" points="90%,45% 90.3%,46% 91.3%,46.3% 90.3%,46.6% 90%,47.6% 89.7%,46.6% 88.7%,46.3% 89.7%,46%"></polygon>
+<circle class="animate-pulse" cx="80%" cy="75%" fill="#ffffff" r="4"></circle>
+<circle cx="30%" cy="85%" fill="#f6bf22" r="2.5"></circle>
+</svg>
+<!-- Hero Content -->
+<div class="relative z-10 w-full max-w-5xl mx-auto px-margin-mobile sm:px-margin pt-40 sm:pt-36 pb-16 sm:pb-20 flex flex-col items-center text-center">
+<!-- Top festive pill -->
+<div class="inline-flex items-center gap-space-xs sm:gap-space-sm px-space-sm sm:px-space-md py-space-xs rounded-full bg-surface-container-lowest/90 whitespace-nowrap max-w-full backdrop-blur-md shadow-md mb-space-md transform hover:-rotate-1 transition-all duration-300"><span class="material-symbols-outlined text-secondary text-[20px]">local_florist</span><span class="font-label-lg text-[11px] sm:text-label-lg text-secondary tracking-normal sm:tracking-wide uppercase">✨ ¡Feliz Cumpleaños, Ángela Vargas! ✨</span><span class="text-tertiary-fixed-dim">👑</span></div>
+<!-- Main Headline Typography -->
+<h1 class="font-display-lg text-[34px] leading-[42px] sm:text-display-lg-mobile md:text-display-lg text-surface-container-lowest drop-shadow-[0_4px_16px_rgba(0,54,108,0.5)] mb-space-sm max-w-4xl tracking-tight leading-tight">
+        “My, my, how can I resist you?”
+      </h1>
+<p class="font-body-lg text-body-md sm:text-body-lg text-surface-container-lowest/95 max-w-2xl mb-space-lg drop-shadow-md leading-relaxed">
+        Un homenaje a nuestros momentos mágicos, risas infinitas y una sorpresa que sólo una auténtica Dancing Queen se merece. ¡Celebramos tu vida, mi hermana amada!
+      </p>
+<!-- Interactive Reveal Anchor -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md w-full sm:w-auto max-w-sm sm:max-w-none">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg sm:px-space-xl py-space-md rounded-full bg-gradient-to-r from-secondary-container via-secondary to-secondary-container text-on-secondary-container font-title-md text-base sm:text-title-md shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 group" href="#carta-personal">
+<span class="material-symbols-outlined shrink-0 text-[24px] text-tertiary-fixed animate-bounce">favorite</span>
+<span class="">Leer Tu Carta de Cumpleaños</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+<button class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-lg text-label-lg shadow-md hover:bg-surface-container-lowest hover:scale-105 transition-all duration-200" onclick="launchMammaMiaConfetti()">
+<span class="material-symbols-outlined text-secondary">celebration</span>
+<span class="">Lanzar Purpurina 70s ✨</span>
+</button>
+</div>
+<!-- Sisterhood Quote badge -->
+<div class="mt-space-xl flex items-center justify-center text-center gap-space-xs text-surface-container-lowest/90 font-label-md text-label-md"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">music_note</span><span class="">Donna Sheridan &amp; The Dynamos • Edición Especial Cumpleaños de Ángela</span></div>
+</div>
+</section>
+<!-- SECTION 2: CARTA PERSONAL A MI HERMANA & POLAROID SCRAPBOOK -->
+<section class="w-full max-w-6xl mx-auto px-margin-mobile sm:px-margin py-space-xl" id="carta-personal">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Vintage Journal Card (7 cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-md pt-space-lg sm:p-space-xl rounded-2xl shadow-xl relative overflow-hidden border border-outline-variant/30">
+<!-- Decorative Washi Tape elements -->
+<div class="absolute -top-3 left-12 w-28 h-7 bg-tertiary-fixed/70 -rotate-2 shadow-sm rounded-sm backdrop-blur-sm pointer-events-none"></div>
+<div class="absolute -top-3 right-12 w-24 h-6 bg-secondary-fixed/70 rotate-3 shadow-sm rounded-sm backdrop-blur-sm pointer-events-none"></div>
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">favorite</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Carta desde el corazón</span>
+<h2 class="font-headline-md text-headline-sm sm:text-headline-md text-primary">Mi hermosa Ángela, mi Sara...</h2>
+</div>
+</div>
+<!-- Handwritten Diary Feel Body -->
+<div class="space-y-space-md font-body-lg text-body-md sm:text-body-lg text-on-surface leading-relaxed relative z-10"><p class="">Pensar en ti siempre ha sido una gran alegría, como escuchar nuestra canción favorita de ABBA resonando bajo el sol de Kalokairi. Doy gracias a Dios por cada momento que puedo compartir contigo, gracias por ser mi amiga incondicional, mi hermana y mi compañera de vida (¡nuestra auténtica Dancing Queen!).</p><p class="">Te veo como el color amarillo, cálido y radiante, iluminando cada espacio que pisas con esa chispa que ninguna tormenta puede apagar. Quiero que siempre recuerdes y te veas con los mismos ojos con los que nuestro Padre te ve: eres valiosa, profundamente amada, confiable y llena de virtudes que brillan con luz propia.</p><div class="p-space-md rounded-xl bg-surface-container-low border-l-4 border-secondary my-space-md"><p class="font-headline-sm text-headline-sm text-secondary italic">“Eres precioso a mis ojos, eres de gran valor y yo te amo.”</p><p class="font-label-lg text-label-lg text-outline mt-1 font-semibold">— Isaías 43:4</p></div><p class="">Hoy celebras 20 años de vida y luz. Y entre todos tus pasos, un día decidiste seguir a Jesús; por eso te felicito aún más, porque has encontrado al verdadero y eterno amor de tu vida: <em>“Porque de él, y por él, y para él, son todas las cosas.”</em> Y tú eres de Él.</p><p class="font-medium text-primary">Sé que el camino ha tenido sus curvas y retos, pero sigue adelante, sigue firme hacia la meta con la frente en alto y el corazón cantando, porque el día está cerca... ¡Nunca dejes de bailar y brillar!</p></div>
+<!-- Signature with Heart -->
+<div class="mt-space-lg pt-space-md border-t border-surface-container-high flex items-center justify-between gap-space-md">
+<div class="flex flex-col"><span class="font-handwriting text-2xl text-primary italic">Te amo con todo mi corazón, mi Sara.</span><span class="font-label-lg text-label-lg text-secondary">Tu hermana y compañera Dynamos por siempre ✨</span></div>
+<div class="w-12 h-12 shrink-0 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[26px]">volunteer_activism</span>
+</div>
+</div>
+</div>
+<!-- Rich Scrapbook Polaroids Stack (5 cols) -->
+<div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-space-lg justify-items-center relative">
+<!-- Scrapbook Title Pin -->
+<div class="w-full flex items-center justify-between gap-2 px-2 sm:col-span-2 lg:col-span-1">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">photo_library</span> Álbum Dynamos íntimo
+</span>
+<span class="text-xs bg-tertiary-fixed px-2 py-0.5 rounded-full font-bold text-on-tertiary-fixed">Recuerdos VIP</span>
+</div>
+<!-- Polaroid 1: Childhood photo (IMAGE_8) -->
+<div class="w-full max-w-sm bg-surface-container-lowest p-3 pb-5 rounded shadow-xl border border-surface-container-high transform -rotate-2 hover:rotate-0 hover:scale-105 transition-all duration-300 relative group">
+<!-- Washi Tape -->
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 w-28 h-6 bg-tertiary-fixed/80 rotate-1 shadow-sm rounded-sm pointer-events-none"></div>
+<div class="relative w-full aspect-[4/5] overflow-hidden rounded bg-surface-container">
+<img alt="Desde chiquitas cantando juntas - Ángela y su hermana de niñas" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD74yL7QqyoWGAMU6NC_rEeyjYBY_gcHriJqWb2wiy7_f9ADQkaX86TwfhOjwWObQgSXMLYRBCIoKv5J142vx5p7KbvRDbhtaUJMOD5CojlhvlIFsDPBNSu5AUvDYzF2KQrU1e1khGSVNDdYG5aD-Il-aK6vDGLz-HxF6S7cMaRzW3EG-eeMDzNnyL9Fq0iiac6bRGAyWt2zAQ1X782ZXxeqik_7vKLlTw3oMUJZWB0E2OSX4u_sSih_anvRAegzqAx9w">
+<div class="absolute top-2 left-2 bg-secondary/90 text-on-secondary text-[11px] font-label-md px-2.5 py-0.5 rounded-full backdrop-blur-sm shadow">Nuestros inicios ✨</div>
+</div>
+<div class="mt-3 text-center">
+<p class="font-handwriting text-xl text-primary font-bold">“Desde chiquitas cantando juntas”</p>
+<p class="font-label-md text-[11px] text-outline">El principio de las Dynamos 🌸</p>
+</div>
+</div>
+<!-- Polaroid 2: Warm Hug Selfie (IMAGE_2) -->
+<div class="w-full max-w-sm bg-surface-container-lowest p-3 pb-5 rounded shadow-xl border border-surface-container-high transform rotate-2 hover:rotate-0 hover:scale-105 transition-all duration-300 relative group">
+<!-- Tape clip -->
+<div class="absolute -top-3 right-6 w-20 h-6 bg-secondary-fixed/80 -rotate-3 shadow-sm rounded-sm pointer-events-none"></div>
+<div class="relative w-full aspect-[4/5] overflow-hidden rounded bg-surface-container">
+<img alt="Complicidad infinita y abrazos de hermana" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4roiaJyXha_PQJrRtbwtFYfT0nebkobkPiH6JHzALGhbx_4xcoRi1UQZWmtSmjE8BJCB58LjEMo7M_Xqd1evMpkczF83iXz6H3i1RZwQOqDLGG9Lyn62DS8zp2CSN3Ah65AcUf5cmgWmwtd73fk6ku2Xovjr8rHOyqcT5VX21qWpPXYsjnMC0EilNiyDvy0jWIdjTB6F84MYGZSVTwK1YybP5svhihK7l8sdDn_Bn95uReevhqwcca0_kO18hjTLTSw">
+<div class="absolute top-2 right-2 bg-primary/80 text-on-primary text-[11px] font-label-md px-2.5 py-0.5 rounded-full backdrop-blur-sm shadow">Amor puro 💖</div>
+</div>
+<div class="mt-3 text-center">
+<p class="font-handwriting text-xl text-secondary font-bold">“Complicidad infinita y abrazos de hermana”</p>
+<p class="font-label-md text-[11px] text-outline">Tu sonrisa siempre ilumina todo ✨</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: NUESTRO ÁLBUM DE MOMENTOS INOLVIDABLES (Dedicated Full Gallery with all 7 genuine photos) -->
+<section class="w-full max-w-6xl mx-auto px-margin-mobile sm:px-margin py-space-xl" id="album-memorias">
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-bold mb-space-sm">
+<span class="material-symbols-outlined text-[18px]">auto_stories</span>
+<span class="">THE DYNAMOS MEMORIES</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-primary tracking-tight">Nuestro Álbum de Momentos Inolvidables</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+    Cada capítulo a tu lado es una melodía de felicidad. Un recorrido por nuestra historia: desde nuestros primeros pasos cantando hasta cada playa, montaña y festejo juntas.
+  </p>
+</div>
+<!-- Memory Polaroid Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg items-stretch">
+<!-- Photo 1: Childhood (IMAGE_8) -->
+<div class="bg-surface-container-lowest p-4 pb-6 rounded-xl shadow-lg border border-surface-container-high hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 relative group flex flex-col justify-between transform -rotate-1">
+<div class="absolute -top-3 left-10 w-24 h-6 bg-tertiary-fixed/70 -rotate-2 rounded-sm shadow-sm pointer-events-none"></div>
+<div>
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-low mb-3">
+<img alt="Desde chiquitas cantando juntas" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfVpsd3hVI7Fib_QvAy2pYAgrUbmmKmkUMAJIb7JUnpsJZMIefV87CP5qY4OgcMYTMjkCBBam8F0pXdogiCqPaaiZQUl61gGmEolYKjfTEtWyqu4lcEoojR8_ASks12gTh60gu1kc5eKNG5FaoatQEhAzzuYYWkTDlfEjWwk4IeOEPUSPSLmXqYGBgknTpl9Up3xkKLr1w6pfXJkPCWwZ-LF-NYa5moiunBfqFmgcfkLuVoG05CpyIRNNkGPdJ6wGS1g">
+<span class="absolute bottom-2 left-2 bg-primary/80 backdrop-blur-sm text-on-primary text-xs font-label-md px-2.5 py-0.5 rounded-full">Capítulo 1 • Inicios</span>
+</div>
+<h3 class="font-handwriting text-2xl text-primary font-bold">“Desde chiquitas cantando juntas”</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Dos hermanitas en vestidos blancos, unidas desde el primer instante con el mismo compás de amor.</p>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-secondary text-xs font-bold font-label-md uppercase">
+<span class="">Mini Dynamos</span>
+<span class="material-symbols-outlined text-[18px]">child_care</span>
+</div>
+</div>
+<!-- Photo 2: Close-up Hug (IMAGE_2) -->
+<div class="bg-surface-container-lowest p-4 pb-6 rounded-xl shadow-lg border border-surface-container-high hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 relative group flex flex-col justify-between transform rotate-1">
+<div class="absolute -top-3 right-10 w-24 h-6 bg-secondary-fixed/70 rotate-2 rounded-sm shadow-sm pointer-events-none"></div>
+<div>
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-low mb-3">
+<img alt="Complicidad infinita y abrazos de hermana" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC1wWsa1VikVzx-0S2qOXZkXj83F63zGu9KePBK9onXRFDCR_GyOAgSNRgGGlTZVMgVab6G4q_ZXWUuippOYbYctJxMtgNoRA5g7fvXie4S2j_MrxnShAUJSlnug2ISryjU__Jude0UljoBtPV-tOxMOL9FY8EkpiDJKltJ03C19ntz6vdhVhzTf-Hg4P4q_eqlbfSrWUnHembUHa9R_yR8fX6Vge8xUs2hMtHR-dSHbx0fH9MvYYxe7t_gaTPsr0HNA">
+<span class="absolute bottom-2 left-2 bg-secondary/80 backdrop-blur-sm text-on-secondary text-xs font-label-md px-2.5 py-0.5 rounded-full">Amor incondicional</span>
+</div>
+<h3 class="font-handwriting text-2xl text-secondary font-bold">“Complicidad infinita y abrazos de hermana”</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Ese abrazo cálido y esa sonrisa que borra cualquier preocupación. Mi refugio favorito siempre.</p>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-secondary text-xs font-bold font-label-md uppercase">
+<span class="">Hermanas del alma</span>
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</div>
+</div>
+<!-- Photo 3: Mountains / Village (IMAGE_3) -->
+<div class="bg-surface-container-lowest p-4 pb-6 rounded-xl shadow-lg border border-surface-container-high hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 relative group flex flex-col justify-between transform -rotate-1">
+<div class="absolute -top-3 left-12 w-24 h-6 bg-primary-fixed/70 rotate-1 rounded-sm shadow-sm pointer-events-none"></div>
+<div>
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-low mb-3">
+<img alt="Aventuras y risas sin fin" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIInAdgzxuEYfTR6HpIC3GjPCZ2AhZdrRRuDbyx61JjqF4Ia21xj1EotYEnjUrZN9LSISseH2uFP5qK0noicjhJRNo7Ss90_aNnXLOBLh4nOlgJSWay5LfTAkkUxKCwUvQjYxd6QSYu8MRVfIrQmJbvIOCDjoad24GXvtmItapSe-5ifY3xUKmB8TVwVoum33xZrnaVTjicNkfAqGVRXDN3hcM9Jvj90m700spzFW0c7Zmsfg0_Wzpy8bUpYhsco5iyg">
+<span class="absolute bottom-2 left-2 bg-primary/80 backdrop-blur-sm text-on-primary text-xs font-label-md px-2.5 py-0.5 rounded-full">Explorando juntas</span>
+</div>
+<h3 class="font-handwriting text-2xl text-primary font-bold">“Aventuras y risas sin fin”</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Pueblitos de montaña, aire fresco y nuestras ocurrencias que hacen que cada viaje sea inolvidable.</p>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-secondary text-xs font-bold font-label-md uppercase">
+<span class="">Rumbo a Kalokairi</span>
+<span class="material-symbols-outlined text-[18px]">landscape</span>
+</div>
+</div>
+<!-- Photo 4: Giant Hydrangeas / Blue flowers (IMAGE_4) -->
+<div class="bg-surface-container-lowest p-4 pb-6 rounded-xl shadow-lg border border-surface-container-high hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 relative group flex flex-col justify-between transform rotate-2">
+<div class="absolute -top-3 right-12 w-24 h-6 bg-tertiary-fixed/70 -rotate-2 rounded-sm shadow-sm pointer-events-none"></div>
+<div>
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-low mb-3">
+<img alt="Floreciendo juntas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiTull0g-vRu3DEQWCJZ8n6VPR68V-2rKUYDC1k0j96e0AeTuKeeSAF-xizPWK3wGlmuRgdnokgx1tNMONoyU4JezgMNJOj7We-ZIhr_2uM1_2S2Yk93ebWVmefEk8rfkWmx4A-yM3htt4JZs-rB8RYUJM3gW_2PkAm_qiRU7M0-aPT4U816ZuTdaHz9bB6u9FYDHoeviHRdn6kCVTsNEe0syIYlET-DdguXscqAcAax2tUCqRKMrYKEVt5K8JfgRFBg">
+<span class="absolute bottom-2 left-2 bg-secondary/80 backdrop-blur-sm text-on-secondary text-xs font-label-md px-2.5 py-0.5 rounded-full">Flores &amp; Cielo azul</span>
+</div>
+<h3 class="font-handwriting text-2xl text-secondary font-bold">“Floreciendo juntas”</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Rodeadas de hortensias y bajo el cielo azul más brillante. Florecer a tu lado es el mayor regalo.</p>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-secondary text-xs font-bold font-label-md uppercase">
+<span class="">Belleza natural</span>
+<span class="material-symbols-outlined text-[18px]">local_florist</span>
+</div>
+</div>
+<!-- Photo 5: Family Table Fun (IMAGE_5) -->
+<div class="bg-surface-container-lowest p-4 pb-6 rounded-xl shadow-lg border border-surface-container-high hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 relative group flex flex-col justify-between transform -rotate-2">
+<div class="absolute -top-3 left-10 w-24 h-6 bg-secondary-fixed/70 rotate-2 rounded-sm shadow-sm pointer-events-none"></div>
+<div>
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-low mb-3">
+<img alt="Momentos en familia llenos de alegría" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXo_kX805u3_WaXcjnyRh0aKhbYrfDMkOXHu3ps8UahQvoVMLKFGyaFf9-M7cs1pq9mBDB9IOMnpdLnMIbcb8CL7IfztC2jsvvikZU8VDSPToeRttZXrDs6UQa3qk-y5GNulzzLdM1XRRXTQSznvP06DWtpWCfE4mLJtA5GAnDyx5PC2zEIFK7rs6zeCg2HK7bbJxR4vpmXVRLntn17sLr389E9kF9QkXV_v1yG5ZL7B-b6XUI-fMHNqM1ug_ucrc6iQ">
+<span class="absolute bottom-2 left-2 bg-primary/80 backdrop-blur-sm text-on-primary text-xs font-label-md px-2.5 py-0.5 rounded-full">Familia &amp; Risas</span>
+</div>
+<h3 class="font-handwriting text-2xl text-primary font-bold">“Momentos en familia llenos de alegría”</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Sonrisas espontáneas y anécdotas compartidas en la mesa que llenan el corazón de pura felicidad.</p>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-secondary text-xs font-bold font-label-md uppercase">
+<span class="">The Dynamos Squad</span>
+<span class="material-symbols-outlined text-[18px]">groups</span>
+</div>
+</div>
+<!-- Photo 6: Beach Log Sunset (IMAGE_6) -->
+<div class="bg-surface-container-lowest p-4 pb-6 rounded-xl shadow-lg border border-surface-container-high hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 relative group flex flex-col justify-between transform rotate-1">
+<div class="absolute -top-3 right-10 w-24 h-6 bg-primary-fixed/70 -rotate-1 rounded-sm shadow-sm pointer-events-none"></div>
+<div>
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-low mb-3">
+<img alt="Atardeceres frente al mar, soñando despiertas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiVadMrduR9Aq8NatS9fcpRPewHR60At4kLp3oKQcDoNHYrey2eabJZoLvA9QBpCE-38KUjv653et1be7m-fBAssC7ruz5-KtlAJRUjcS1Vn5jn0EtArlz3ElueEeMKAJ_OEF91VEw-y_axcCOoNjvhgzm5dIest5ZBgMTU2P5EkWfcxzQCRHZKyB_uCeB837PJ46bk2Dg7h20eVZdOc406YK_g9aTnyMdfCPPW_HaZqU2R3ydveiS9-t1Mfb-bTGrg">
+<span class="absolute bottom-2 left-2 bg-secondary/80 backdrop-blur-sm text-on-secondary text-xs font-label-md px-2.5 py-0.5 rounded-full">Mar Egeo Vibra</span>
+</div>
+<h3 class="font-handwriting text-2xl text-secondary font-bold">“Atardeceres frente al mar, soñando despiertas”</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Sentadas sobre la arena dorada, escuchando las olas y sabiendo que nos tenemos la una a la otra siempre.</p>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-secondary text-xs font-bold font-label-md uppercase">
+<span class="">Paz &amp; Horizonte</span>
+<span class="material-symbols-outlined text-[18px]">beach_access</span>
+</div>
+</div>
+<!-- Photo 7: Wide Spotlight - Beach Heart Sunglasses (IMAGE_7) -->
+<div class="md:col-span-2 lg:col-span-3 bg-gradient-to-r from-surface-container-lowest via-surface-container-low to-surface-container-lowest p-4 sm:p-6 rounded-2xl shadow-xl border border-secondary/20 hover:shadow-2xl transition-all duration-300 relative group">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<div class="md:col-span-5 relative aspect-[4/3] rounded-xl overflow-hidden shadow-md">
+<img alt="Nuestra alegría compartida • Sonrisas en la montaña" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHgW8CGhuROoqYSFWJPuZosbUkNrbj3IpIvBOQgcEZPlLHsUfZMCAy_QbXCjKQL9bJfzgnoSCrRJ8mcPSYNU3iKp4_LJkXAv1276TM2VlBxfgGMPVLT-YAxzcGTeusRgHQ-04gO4wEF4422teA1v38hUvEMSIKI3uKWWfvZcZ5IqQ3PzHwqmnN2xIOA6cCfVzVICVay0Z7xpZM-NPnNG42sZdG-OybzOqy_PxisIvgQs0WxCPFt-bekE1Pt6QIRbJTUw">
+<span class="absolute top-3 left-3 bg-secondary text-on-secondary font-label-md text-xs px-3 py-1 rounded-full shadow font-bold">✨ Pura Vibra Dynamos ✨</span>
+</div>
+<div class="md:col-span-7 flex flex-col justify-between"><div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Naturaleza &amp; Risas Compartidas</span>
+<h3 class="font-handwriting text-2xl sm:text-4xl text-primary font-bold mt-1">“Nuestra alegría compartida • Sonrisas en la montaña”</h3>
+<p class="font-body-lg text-body-md sm:text-body-lg text-on-surface leading-relaxed mt-2">
+            Cielo despejado, aire fresco de montaña y esa complicidad que nos hace reír sin parar. Así somos nosotras: cómplices, llenas de energía positiva y celebrando la belleza de caminar juntas por la vida.
+          </p>
+</div>
+<div class="mt-6 flex flex-wrap items-center gap-3">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-xs font-bold">
+<span class="material-symbols-outlined text-[16px]">landscape</span> Paisajes Inolvidables
+</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-xs font-bold">
+<span class="material-symbols-outlined text-[16px]">favorite</span> Dancing Queens
+</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-xs font-bold">
+<span class="material-symbols-outlined text-[16px]">celebration</span> Feliz Cumpleaños Ángela
+</span>
+</div></div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: EL TOCADISCOS DE KALOKAIRI (Interactive 70s Vinyl Widget) -->
+<section class="w-full max-w-6xl mx-auto px-margin-mobile sm:px-margin py-space-xl" id="tocadiscos">
+<div class="bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl p-space-md sm:p-space-xl text-on-primary shadow-2xl relative overflow-hidden">
+<!-- Ambient vinyl glow -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-secondary-container/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Turntable / Vinyl Disc Illustration (5 cols) -->
+<div class="lg:col-span-5 flex flex-col items-center justify-center">
+<div class="relative w-56 h-56 sm:w-72 sm:h-72 rounded-full bg-inverse-surface shadow-2xl flex items-center justify-center p-3 border-4 border-outline/30">
+<!-- Concentric Grooves -->
+<div class="w-full h-full rounded-full border-2 border-outline-variant/20 flex items-center justify-center">
+<div class="w-5/6 h-5/6 rounded-full border border-outline-variant/15 flex items-center justify-center">
+<div class="w-4/6 h-4/6 rounded-full border border-outline-variant/20 flex items-center justify-center">
+<!-- Vinyl Center Label -->
+<div class="w-28 h-28 rounded-full bg-gradient-to-tr from-secondary via-secondary-container to-tertiary-fixed-dim p-1 shadow-inner flex flex-col items-center justify-center text-center animate-[spin_8s_linear_infinite] transition-transform" id="vinylDisc" style="animation-play-state: paused;">
+<div class="w-8 h-8 rounded-full bg-surface-container-lowest flex items-center justify-center">
+<div class="w-3 h-3 rounded-full bg-inverse-surface"></div>
+</div>
+<span class="font-label-md text-[9px] uppercase tracking-wider text-on-secondary font-bold mt-1">KALOKAIRI HITS</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Stylus Arm Indicator -->
+<div class="absolute -top-3 right-8 w-12 h-24 pointer-events-none">
+<div class="w-2 h-16 bg-surface-variant origin-top rotate-12 rounded-full shadow-md ml-auto"></div>
+<div class="w-4 h-5 bg-tertiary-fixed-dim rounded-sm -mt-1 ml-auto"></div>
+</div>
+</div>
+<!-- Currently Playing Status -->
+<div class="mt-space-md text-center">
+<span class="inline-flex items-center gap-space-xs font-label-md text-label-md text-tertiary-fixed">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim animate-ping"></span>
+              REPRODUCIENDO LA BANDA SONORA DE NUESTRA VIDA
+            </span>
+<p class="font-headline-sm text-headline-sm text-on-primary mt-1" id="currentTrackTitle">Dancing Queen — ABBA</p>
+</div>
+<!-- YouTube Player (visible once a song starts) -->
+<div class="hidden w-full max-w-sm mt-space-md rounded-xl overflow-hidden shadow-2xl border-2 border-tertiary-fixed/40 bg-inverse-surface aspect-video" id="ytWrap"><div class="w-full h-full" id="ytPlayer"></div></div>
+<div class="hidden mt-space-md items-center gap-space-sm" id="playerControls">
+<button class="w-11 h-11 rounded-full bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 flex items-center justify-center transition-all active:scale-95" onclick="prevSong()" aria-label="Canción anterior"><span class="material-symbols-outlined text-on-primary">skip_previous</span></button>
+<button class="w-14 h-14 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-lg transition-all active:scale-95" onclick="togglePlay()" aria-label="Reproducir o pausar"><span class="material-symbols-outlined text-[32px]" id="mainPlayIcon">play_arrow</span></button>
+<button class="w-11 h-11 rounded-full bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 flex items-center justify-center transition-all active:scale-95" onclick="nextSong()" aria-label="Siguiente canción"><span class="material-symbols-outlined text-on-primary">skip_next</span></button>
+</div>
+<a class="hidden mt-space-sm font-label-md text-label-md text-tertiary-fixed underline underline-offset-4" href="#" id="ytFallback" rel="noopener" target="_blank">No se pudo reproducir aquí • Abrir en YouTube ↗</a>
+</div>
+<!-- Playlist Tracks List (7 cols) -->
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div class="flex items-center justify-between gap-space-md mb-space-md">
+<div>
+<span class="font-label-md text-label-md text-primary-fixed uppercase tracking-wider">Mamma Mia Gold Selection</span>
+<h3 class="font-headline-md text-headline-sm sm:text-headline-md text-on-primary">El Tocadiscos de Las Dynamos</h3>
+</div>
+<div class="flex items-center gap-1 shrink-0">
+<span class="w-1 h-5 bg-tertiary-fixed animate-bounce"></span>
+<span class="w-1 h-8 bg-tertiary-fixed animate-bounce" style="animation-delay: 0.15s"></span>
+<span class="w-1 h-4 bg-tertiary-fixed animate-bounce" style="animation-delay: 0.3s"></span>
+<span class="w-1 h-6 bg-tertiary-fixed animate-bounce" style="animation-delay: 0.45s"></span>
+</div>
+</div>
+<!-- Track items -->
+<div class="space-y-space-xs">
+<!-- Track 1 -->
+<button class="w-full p-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-all flex items-center justify-between gap-space-sm text-left group" data-yt="xFrGuyw1V8s" onclick="playSong(this, 'Dancing Queen — ABBA', 'Young and sweet, only seventeen... ¡La reina indiscutible, Ángela!')">
+<div class="flex items-center gap-space-sm sm:gap-space-md min-w-0">
+<span class="w-8 h-8 shrink-0 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-label-md text-label-md font-bold group-hover:scale-110 transition-transform">01</span>
+<div>
+<h4 class="font-title-md text-base sm:text-title-md text-on-primary group-hover:text-tertiary-fixed transition-colors">Dancing Queen</h4>
+<p class="font-body-sm text-body-sm text-primary-fixed">Young and sweet, only seventeen... ¡Tu himno eterno!</p>
+</div>
+</div>
+<span class="material-symbols-outlined shrink-0 text-[24px] text-tertiary-fixed">play_circle</span>
+</button>
+<!-- Track 2 -->
+<button class="w-full p-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-all flex items-center justify-between gap-space-sm text-left group" data-yt="unfzfe8f9NI" onclick="playSong(this, 'Mamma Mia — ABBA', 'Here I go again, my my, how can I resist you?')">
+<div class="flex items-center gap-space-sm sm:gap-space-md min-w-0">
+<span class="w-8 h-8 shrink-0 rounded-full bg-surface-container-lowest/20 text-on-primary flex items-center justify-center font-label-md text-label-md font-bold group-hover:scale-110 transition-transform">02</span>
+<div>
+<h4 class="font-title-md text-base sm:text-title-md text-on-primary group-hover:text-tertiary-fixed transition-colors">Mamma Mia</h4>
+<p class="font-body-sm text-body-sm text-primary-fixed">Here I go again! Preparando aventuras juntas.</p>
+</div>
+</div>
+<span class="material-symbols-outlined shrink-0 text-[24px] text-on-primary group-hover:text-tertiary-fixed">play_circle</span>
+</button>
+<!-- Track 3 -->
+<button class="w-full p-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-all flex items-center justify-between gap-space-sm text-left group" data-yt="BshxCIjNEjY" onclick="playSong(this, 'Super Trouper — ABBA', 'Lights are gonna find me, shining like the sun!')">
+<div class="flex items-center gap-space-sm sm:gap-space-md min-w-0">
+<span class="w-8 h-8 shrink-0 rounded-full bg-surface-container-lowest/20 text-on-primary flex items-center justify-center font-label-md text-label-md font-bold group-hover:scale-110 transition-transform">03</span>
+<div>
+<h4 class="font-title-md text-base sm:text-title-md text-on-primary group-hover:text-tertiary-fixed transition-colors">Super Trouper</h4>
+<p class="font-body-sm text-body-sm text-primary-fixed">Brillando bajo los focos de nuestras travesuras.</p>
+</div>
+</div>
+<span class="material-symbols-outlined shrink-0 text-[24px] text-on-primary group-hover:text-tertiary-fixed">play_circle</span>
+</button>
+<!-- Track 4 -->
+<button class="w-full p-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-all flex items-center justify-between gap-space-sm text-left group" data-yt="RF9wHFw3kTw" onclick="playSong(this, 'Slipping Through My Fingers — Donna &amp; Sophie', 'El abrazo más sincero de hermanas.')">
+<div class="flex items-center gap-space-sm sm:gap-space-md min-w-0">
+<span class="w-8 h-8 shrink-0 rounded-full bg-surface-container-lowest/20 text-on-primary flex items-center justify-center font-label-md text-label-md font-bold group-hover:scale-110 transition-transform">04</span>
+<div>
+<h4 class="font-title-md text-base sm:text-title-md text-on-primary group-hover:text-tertiary-fixed transition-colors">Slipping Through My Fingers</h4>
+<p class="font-body-sm text-body-sm text-primary-fixed">Para emocionarnos y recordar lo rápido que vuela el tiempo.</p>
+</div>
+</div>
+<span class="material-symbols-outlined shrink-0 text-[24px] text-on-primary group-hover:text-tertiary-fixed">play_circle</span>
+</button>
+<!-- Track 5 -->
+<button class="w-full p-space-sm rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-all flex items-center justify-between gap-space-sm text-left group" data-yt="ulZQTrV8QlQ" onclick="playSong(this, 'Lay All Your Love On Me — ABBA', 'Bailar descalzas en la orilla del mar.')">
+<div class="flex items-center gap-space-sm sm:gap-space-md min-w-0">
+<span class="w-8 h-8 shrink-0 rounded-full bg-surface-container-lowest/20 text-on-primary flex items-center justify-center font-label-md text-label-md font-bold group-hover:scale-110 transition-transform">05</span>
+<div>
+<h4 class="font-title-md text-base sm:text-title-md text-on-primary group-hover:text-tertiary-fixed transition-colors">Lay All Your Love On Me</h4>
+<p class="font-body-sm text-body-sm text-primary-fixed">Ritmo puro de verano mediterráneo.</p>
+</div>
+</div>
+<span class="material-symbols-outlined shrink-0 text-[24px] text-on-primary group-hover:text-tertiary-fixed">play_circle</span>
+</button>
+</div>
+<p class="mt-space-md text-center italic font-body-sm text-body-sm text-tertiary-fixed" id="trackQuote">
+            “Young and sweet, only seventeen... ¡La reina indiscutible, Ángela!”
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: EL KIT OFICIAL DE LAS DYNAMOS (4 Illustrated Cards) -->
+<section class="w-full max-w-6xl mx-auto px-margin-mobile sm:px-margin py-space-xl" id="kit-dynamos">
+<div class="text-center max-w-2xl mx-auto mb-space-lg">
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Equipaje Esencial</span>
+<h2 class="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-primary">El Kit Oficial de Las Dynamos</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+        Cuatro elementos indispensables para nuestra hermandad: garantía de risas y momentos inolvidables.
+      </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-md flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed mb-space-md">
+<span class="material-symbols-outlined text-[28px]">checkroom</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-space-xs">Monos de Campana &amp; Licra</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Brillo asegurado, pantalones acampanados y botas con plataforma para cantar juntas y deslumbrar.
+          </p>
+</div>
+<span class="mt-space-md font-label-md text-label-md text-secondary uppercase font-bold">100% Glamour 70s</span>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-md flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed mb-space-md">
+<span class="material-symbols-outlined text-[28px]">wine_bar</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-space-xs">Cócteles &amp; Brindis</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Copas con vistas al atardecer mientras celebramos tus metas y planeamos la próxima travesura.
+          </p>
+</div>
+<span class="mt-space-md font-label-md text-label-md text-secondary uppercase font-bold">Cheers to Ángela</span>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-md flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed mb-space-md">
+<span class="material-symbols-outlined text-[28px]">mic</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-space-xs">Micrófono Secador de Pelo</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            El clásico infalible de nuestro cuarto antes de cualquier salida, cantando “Voulez-Vous” a todo pulmón.
+          </p>
+</div>
+<span class="mt-space-md font-label-md text-label-md text-secondary uppercase font-bold">Ensayos Privados</span>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-md flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl transition-all duration-300"><div>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed-dim flex items-center justify-center text-on-secondary-fixed mb-space-md">
+<span class="material-symbols-outlined text-[28px]">sunny</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-space-xs">Sonrisas &amp; Libertad al Aire Libre</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Vistas panorámicas, complicidad inquebrantable, aire puro y la felicidad contagiosa de celebrar juntas.
+          </p>
+</div>
+<span class="mt-space-md font-label-md text-label-md text-secondary uppercase font-bold">Modo Dynamos ON</span></div>
+</div>
+</section>
+<!-- SECTION 6: CELEBRATION CALL TO ACTION BANNER -->
+<section class="w-full max-w-4xl mx-auto px-margin-mobile sm:px-margin pb-space-xl">
+<div class="bg-surface-container-low rounded-2xl p-space-md sm:p-space-xl shadow-lg flex flex-col md:flex-row items-center justify-between gap-space-lg border border-secondary/20">
+<div class="flex flex-col sm:flex-row items-center text-center sm:text-left gap-space-md">
+<div class="w-16 h-16 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[32px]">cake</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">El Gran Festejo</span>
+<h3 class="font-headline-md text-headline-sm sm:text-headline-md text-primary">¡Brindemos por Ángela Vargas!</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Que la vida te colme de bendiciones, música, salud y muchos veranos más a mi lado.
+          </p>
+</div>
+</div>
+<button class="w-full md:w-auto shrink-0 px-space-xl py-space-md rounded-full bg-secondary text-on-secondary font-title-md text-title-md shadow-md hover:bg-secondary-container hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2" onclick="launchMammaMiaConfetti()">
+<span class="">¡Celebrar Ahora!</span>
+<span class="material-symbols-outlined text-[20px]">celebration</span>
+</button>
+</div>
+</section>
+<!-- Interactive Confetti Canvas Overlay -->
+<canvas class="fixed inset-0 pointer-events-none z-50 w-full h-full" id="mammaMiaCanvas"></canvas>
+</div>
+<script>
+  // Reproductor real de la playlist (YouTube IFrame API)
+  let ytPlayer = null, ytReady = false, pendingVideo = null, currentBtn = null, isPlaying = false;
+
+  (function loadYT() {
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(tag);
+  })();
+
+  function onYouTubeIframeAPIReady() {
+    const vars = { autoplay: 1, playsinline: 1, rel: 0, modestbranding: 1 };
+    if (location.protocol.startsWith('http')) vars.origin = location.origin;
+    ytPlayer = new YT.Player('ytPlayer', {
+      width: '100%', height: '100%', playerVars: vars,
+      events: {
+        onReady: () => { ytReady = true; if (pendingVideo) { ytPlayer.loadVideoById(pendingVideo); pendingVideo = null; } },
+        onStateChange: (e) => {
+          if (e.data === YT.PlayerState.PLAYING) setPlaying(true);
+          else if (e.data === YT.PlayerState.PAUSED) setPlaying(false);
+          else if (e.data === YT.PlayerState.ENDED) { setPlaying(false); nextSong(); }
+        },
+        onError: () => showFallback(true)
+      }
+    });
+  }
+
+  function trackButtons() { return Array.from(document.querySelectorAll('#tocadiscos button[data-yt]')); }
+
+  function setPlaying(playing) {
+    isPlaying = playing;
+    const vinylEl = document.getElementById('vinylDisc');
+    if (vinylEl) vinylEl.style.animationPlayState = playing ? 'running' : 'paused';
+    const main = document.getElementById('mainPlayIcon');
+    if (main) main.textContent = playing ? 'pause' : 'play_arrow';
+    trackButtons().forEach(b => {
+      const icon = b.querySelector(':scope > .material-symbols-outlined');
+      if (icon) icon.textContent = (b === currentBtn && playing) ? 'pause_circle' : 'play_circle';
+    });
+  }
+
+  function showFallback(show) {
+    const a = document.getElementById('ytFallback');
+    if (!a) return;
+    if (currentBtn) a.href = 'https://www.youtube.com/watch?v=' + currentBtn.dataset.yt;
+    a.classList.toggle('hidden', !show);
+  }
+
+  function playSong(btn, trackName, quote) {
+    const titleEl = document.getElementById('currentTrackTitle');
+    const quoteEl = document.getElementById('trackQuote');
+    const vinylEl = document.getElementById('vinylDisc');
+
+    // Mismo botón: pausar / reanudar
+    if (btn === currentBtn && ytReady) { togglePlay(); return; }
+
+    if (titleEl) titleEl.innerText = trackName;
+    if (quoteEl) quoteEl.innerText = `“${quote}”`;
+
+    trackButtons().forEach(b => b.classList.toggle('ring-2', b === btn));
+    trackButtons().forEach(b => b.classList.toggle('ring-tertiary-fixed', b === btn));
+    currentBtn = btn;
+    showFallback(false);
+
+    document.getElementById('ytWrap').classList.remove('hidden');
+    const controls = document.getElementById('playerControls');
+    controls.classList.remove('hidden'); controls.classList.add('flex');
+
+    if (ytReady) ytPlayer.loadVideoById(btn.dataset.yt);
+    else pendingVideo = btn.dataset.yt;
+
+    if (vinylEl) {
+      vinylEl.classList.add('scale-105');
+      setTimeout(() => vinylEl.classList.remove('scale-105'), 300);
+    }
+  }
+
+  function togglePlay() {
+    if (!ytReady) return;
+    if (!currentBtn) { trackButtons()[0].click(); return; }
+    if (isPlaying) ytPlayer.pauseVideo(); else ytPlayer.playVideo();
+  }
+
+  function stepSong(dir) {
+    const list = trackButtons();
+    const i = currentBtn ? list.indexOf(currentBtn) : -1;
+    list[(i + dir + list.length) % list.length].click();
+  }
+  function nextSong() { stepSong(1); }
+  function prevSong() { stepSong(-1); }
+
+  // Mamma Mia Glamour Disco Confetti Animation
+  function launchMammaMiaConfetti() {
+    const canvas = document.getElementById('mammaMiaCanvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const colors = ['#b70053', '#e01a6a', '#f6bf22', '#ffdf99', '#0a4d92', '#ffffff'];
+    const particles = [];
+
+    for (let i = 0; i < 110; i++) {
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: -20 - Math.random() * 50,
+        r: Math.random() * 7 + 4,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        tilt: Math.random() * 10,
+        tiltInc: Math.random() * 0.08 + 0.04,
+        speed: Math.random() * 3 + 2.5,
+        isStar: Math.random() > 0.6
+      });
+    }
+
+    let frames = 0;
+    function render() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => {
+        p.tilt += p.tiltInc;
+        p.y += p.speed;
+        p.x += Math.sin(p.tilt) * 1.5;
+
+        ctx.fillStyle = p.color;
+        ctx.beginPath();
+        if (p.isStar) {
+          ctx.arc(p.x, p.y, p.r * 0.7, 0, Math.PI * 2);
+        } else {
+          ctx.rect(p.x, p.y, p.r, p.r * 1.4);
+        }
+        ctx.fill();
+      });
+
+      frames++;
+      if (frames < 220) {
+        requestAnimationFrame(render);
+      } else {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+    render();
+  }
+</script></main><footer class="w-full bg-surface-container-low mt-space-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full px-margin-mobile sm:px-margin py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-wrap items-center justify-center gap-space-sm text-primary"><span class="font-headline-sm text-headline-sm">Villa Donna</span><span class="text-tertiary-fixed-dim">✦</span><span class="font-body-sm text-body-sm text-on-surface-variant">Isla de Kalokairi, Grecia</span></div><div class="text-center md:text-right"><p class="font-body-sm text-body-sm text-on-surface-variant">Hecho con todo el amor de hermana para Ángela Vargas • Villa Donna</p><p class="font-label-md text-label-md text-outline mt-space-xs">Inspired by Mamma Mia! • For our favorite Dancing Queen, Ángela Vargas</p></div></div></footer>
+
+
+
+
+
+</body></html>
